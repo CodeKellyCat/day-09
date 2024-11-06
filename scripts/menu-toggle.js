@@ -1,7 +1,7 @@
 // // Main Navigation Toggle
 // const button = document.getElementById("main-nav-button")
 // const links = document.getElementById("main-nav-list")
-// // Thumb Navigation Toggle
+
 // button.addEventListener('click', funtion() {
 //     links.classList.toggle('toggled');
 
@@ -15,6 +15,7 @@ button.addEventListener('click', function() {
     links.classList.toggle('toggled');
 })
 
+// // Thumb Navigation Toggle
 const thumbButton = document.getElementById("thumb-nav-button");
 const thumblinks = document.getElementById("thumb-nav-secondary");
 
