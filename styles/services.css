@@ -49,6 +49,10 @@ p {
 
 /* Elements
 --------------------------------------------- */
+html {
+	scroll-behavior: smooth;
+}
+
 section {
 	margin-bottom: 3rem;
 }
@@ -236,3 +240,26 @@ nav a {
 /*--------------------------------------------------------------
 # Dark Mode
 --------------------------------------------------------------*/
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #ffffff;
+		background-color: #000000;
+	}
+	header, 
+	footer {
+		background-color: #ffffff;
+		color: #000000;
+	}
+
+	.services article {
+		background-color: #347034;
+	}
+
+	a,
+	a:visited {
+		color: #edf1ed;
+	}
+
+	a:hover, 
+	a:focus {color: lightpink;}
+}
