@@ -1,16 +1,23 @@
-// Main Navigation Toggle
-const button = document.getElementById("main-nav-button")
-const links = document.getElementById("main-nav-list")
-// Thumb Navigation Toggle
-button.addEventListener('click', funtion() {
-    links.classList.toggle('toggled');
+// // Main Navigation Toggle
+// const button = document.getElementById("main-nav-button")
+// const links = document.getElementById("main-nav-list")
+// // Thumb Navigation Toggle
+// button.addEventListener('click', funtion() {
+//     links.classList.toggle('toggled');
 
+// })
+
+// Main Navigation Toggle
+const button = document.getElementById("main-nav-button");
+const links = document.getElementById("main-nav-list");
+
+button.addEventListener('click', function() {
+    links.classList.toggle('toggled');
 })
 
-// Main Navigation Toggle
-// const button = document.getElementById("main-nav-button");
-// const links = document.getElementById("main-nav-list");
+const thumbButton = document.getElementById("thumb-nav-button");
+const thumblinks = document.getElementById("thumb-nav-secondary");
 
-// button.addEventListener('click', function() {
-//     links.classList.toggle('toggled');
-// })
+thumbButton.addEventListener('click', function() {
+    thumblinks.classList.toggle('toggled')
+})
