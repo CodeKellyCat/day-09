@@ -207,6 +207,10 @@ nav a {
 
 /* Grid Practice Styles */
 .grid-practice {
+	display: grid;
+	grid-template-columns: repeat(3, 4.75rem);
+	grid-template-rows: repeat(3, 4.75rem);
+	gap: .5rem;
 
 }
 
